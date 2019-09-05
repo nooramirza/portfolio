@@ -202,6 +202,10 @@
   filter: gray;
 }
 
+.work-item {
+  height: 400px;
+}
+
 .work-item:hover img {
   -webkit-filter: none;
   -moz-filter: none;
@@ -228,6 +232,7 @@
 .work-img {
   position: relative;
   overflow: hidden;
+  height: 100%;
 
   img {
     overflow: hidden;

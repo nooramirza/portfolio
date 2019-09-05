@@ -29,7 +29,7 @@
 }
 
 .section-wrap, .section-wrap-mp {
-  padding: 150px 0;
+  padding: 0;
   overflow: hidden;
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -1306,6 +1306,10 @@ p {
   filter: gray;
 }
 
+.work-item {
+  height: 400px;
+}
+
 .work-item:hover img {
   -webkit-filter: none;
   -moz-filter: none;
@@ -1331,6 +1335,7 @@ p {
 .work-img {
   position: relative;
   overflow: hidden;
+  height: 100%;
 }
 .work-img img {
   overflow: hidden;
