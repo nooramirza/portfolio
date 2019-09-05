@@ -111,7 +111,7 @@ ul {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 0 30px;
   font-family: "Pt Serif", serif;
   color: #7a7a7a;
   font-size: 15px;
@@ -1304,10 +1304,6 @@ p {
   -ms-filter: grayscale(100%);
   filter: grayscale(100%);
   filter: gray;
-}
-
-.work-item {
-  height: 400px;
 }
 
 .work-item:hover img {
