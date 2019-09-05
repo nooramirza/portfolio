@@ -2074,13 +2074,22 @@ input.searchbox:focus {
   padding: 170px 0 150px;
 }
 
-.intro.style-2 .intro-text p {
+.intro.style-2 .intro-title p {
   font-size: 50px;
   font-weight: 700;
   line-height: 1.5;
   font-family: $heading-font;
   color: $heading-color;
 }
+
+.intro.style-2 .intro-text p {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 1.5;
+  font-family: $heading-font;
+  color: $heading-color;
+}
+
 
 
 /* Portfolio Masonry
