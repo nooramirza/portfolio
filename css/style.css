@@ -1332,6 +1332,7 @@ p {
   position: relative;
   overflow: hidden;
   height: 100%;
+  padding: 10px 0px 10px 0px;
 }
 .work-img img {
   overflow: hidden;
