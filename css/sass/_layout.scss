@@ -204,6 +204,7 @@
 
 .work-container {
   display: flex;
+  margin: 60px 0;
 
   & > div:first-child {
     margin-right: 30px;
@@ -245,7 +246,7 @@
   position: relative;
   overflow: hidden;
   height: 100%;
-  margin: 30px 0px;
+  margin: 0;
 
   img {
     overflow: hidden;
@@ -2084,7 +2085,12 @@ input.searchbox:focus {
 -------------------------------------------------------*/
 
 .section-wrap.intro {
-  padding: 170px 0 150px;
+  padding: 170px 0 95px;
+
+  & .container {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .intro.style-2 .intro-title p {
