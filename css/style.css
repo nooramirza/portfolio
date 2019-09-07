@@ -411,7 +411,7 @@ p {
 }
 
 .logo-container {
-  padding: 0 15px;
+  padding: 0;
   float: left;
 }
 
@@ -817,13 +817,14 @@ p {
   height: 100px;
   width: 100%;
   float: left;
+  padding: 0;
 }
 .nav-type-3 .logo-container a {
   z-index: 11;
   vertical-align: middle;
   display: table-cell;
   height: 100px;
-  padding: 0 20px;
+  padding: 0;
 }
 
 .full-nav,
@@ -3055,6 +3056,10 @@ input.searchbox:focus {
 -------------------------------------------------------*/
 .section-wrap.intro {
   padding: 170px 0 150px;
+}
+.section-wrap.intro .container {
+  padding: 0;
+  margin: 0;
 }
 
 .intro.style-2 .intro-title p {

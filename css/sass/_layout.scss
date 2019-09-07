@@ -2085,6 +2085,11 @@ input.searchbox:focus {
 
 .section-wrap.intro {
   padding: 170px 0 150px;
+
+  & .container {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 .intro.style-2 .intro-title p {
