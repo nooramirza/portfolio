@@ -308,13 +308,6 @@
   }
 }
 
-
-.work-description h3,
-.work-description span {
-  @include transform (translateX(-360px));
-  @include transition (all .2s ease-in-out);
-}
-
 .work-item:hover img {
   @include transform (scale3d(1.1,1.1,1));
 }

@@ -1421,20 +1421,6 @@ p {
   display: inline-block;
 }
 
-.work-description h3,
-.work-description span {
-  -webkit-transform: translateX(-360px);
-  -moz-transform: translateX(-360px);
-  -ms-transform: translateX(-360px);
-  -o-transform: translateX(-360px);
-  transform: translateX(-360px);
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
 .work-item:hover img {
   -webkit-transform: scale3d(1.1, 1.1, 1);
   -moz-transform: scale3d(1.1, 1.1, 1);
