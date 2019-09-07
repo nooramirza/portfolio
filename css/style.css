@@ -1309,6 +1309,7 @@ p {
 
 .work-container {
   display: flex;
+  margin: 60px 0;
 }
 .work-container > div:first-child {
   margin-right: 30px;
@@ -1347,7 +1348,7 @@ p {
   position: relative;
   overflow: hidden;
   height: 100%;
-  margin: 30px 0px;
+  margin: 0;
 }
 .work-img img {
   overflow: hidden;
@@ -3055,7 +3056,7 @@ input.searchbox:focus {
 /* Intro
 -------------------------------------------------------*/
 .section-wrap.intro {
-  padding: 170px 0 150px;
+  padding: 170px 0 95px;
 }
 .section-wrap.intro .container {
   padding: 0;
