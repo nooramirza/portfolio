@@ -43,7 +43,7 @@
     color: #dbdbdb;
     line-height: 37px;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     @include transition ($all);
   }
 
@@ -194,12 +194,12 @@ p.footer-address {
   line-height: 37px;
 
   & .footer-socials {
-    text-align: right;
+    text-align: center;
   }
 
   & .footer-socials i {
     background-color: transparent;
-    color: $text-color;
+    color: #000;
   }
 
   & .footer-socials a:hover i {

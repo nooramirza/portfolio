@@ -112,7 +112,7 @@ ul {
 body {
   margin: 0;
   padding: 0 60px;
-  /*font-family: "Pt Serif", serif;*/
+  font-family: "Nunito Sans", sans-serif;
   color: #7a7a7a;
   font-size: 15px;
   line-height: 1.5;
@@ -140,9 +140,8 @@ body img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   margin-top: 0;
-  text-transform: uppercase;
   color: #111;
   letter-spacing: 0.05em;
   font-weight: 700;
@@ -154,7 +153,6 @@ h1 {
 
 h2 {
   font-size: 24px;
-  Color: White;
 }
 
 h3 {
@@ -181,7 +179,7 @@ p {
 }
 
 .subheading {
-  font-family: "Pt Serif", serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 16px;
   font-style: italic;
 }
@@ -1328,6 +1326,7 @@ p {
   -moz-filter: none;
   -ms-filter: none;
   filter: none;
+  border-radius: 7px;
 }
 
 .works-grid-3-col-wide .container-fluid {
@@ -1346,12 +1345,14 @@ p {
 }
 
 .work-img {
+  border-radius: 7px;
   position: relative;
   overflow: hidden;
   height: 100%;
   margin: 0;
 }
 .work-img img {
+  border-radius: 7px;
   overflow: hidden;
   width: 100%;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1383,7 +1384,7 @@ p {
 }
 
 .work-overlay {
-  background-color: rgba(20, 20, 20, 0.7);
+  background-color: rgba(20, 20, 20, 0.9);
   position: absolute;
   top: 0;
   left: 0;
@@ -1400,26 +1401,38 @@ p {
   position: absolute;
   display: block;
   left: 8%;
-  top: 8%;
-  width: 80%;
+  top: 16%;
+  width: 45%;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-.work-description h3 {
-  font-size: 16px;
-  margin-bottom: 5px;
+.work-description.sm {
+  width: 80%;
+}
+.work-description h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
   color: #fff;
+  letter-spacing: 1.5px;
+}
+.work-description h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #999;
+  letter-spacing: 1.5px;
 }
 .work-description a {
   color: #fff;
 }
 .work-description span {
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
   display: inline-block;
+  letter-spacing: 1.5px;
+  font-weight: 600;
 }
 
 .work-item:hover img {
@@ -1447,6 +1460,7 @@ p {
 }
 
 .work-item:hover .work-overlay {
+  border-radius: 7px;
   opacity: 1;
   z-index: 1;
 }
@@ -1831,7 +1845,7 @@ p {
   color: #fff;
   font-style: italic;
   margin: 30px 0;
-  font-family: "Pt Serif", serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .testimonial i {
@@ -2184,7 +2198,7 @@ p {
   font-size: 22px;
   line-height: 34px;
   font-style: italic;
-  font-family: "Pt Serif", serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .blog-content .entry-item blockquote > p > a:hover {
@@ -2349,7 +2363,7 @@ input.searchbox:focus {
 .widget.latest-posts .entry-meta > span {
   color: #7a7a7a;
   font-size: 13px;
-  font-family: "Pt Serif", serif;
+  font-family: "Nunito Sans", sans-serif;
   text-transform: none;
   margin-top: 5px;
   display: block;
@@ -2423,7 +2437,7 @@ input.searchbox:focus {
   font-style: italic;
   font-size: 14px;
   line-height: 37px;
-  font-family: "Pt Serif", serif;
+  font-family: "Nunito Sans", sans-serif;
   color: #7a7a7a;
 }
 .entry-content .entry-tags a:hover {
@@ -2936,7 +2950,7 @@ input.searchbox:focus {
 }
 .testimonials.style-2 .testimonial-text {
   margin: 10px 0 20px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 20px;
 }
 
@@ -3637,7 +3651,7 @@ input[type=checkbox] + label,
 input[type=radio] + label {
   cursor: pointer;
   margin-bottom: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   text-transform: none;
   letter-spacing: normal;
   color: #7a7a7a;
@@ -3723,7 +3737,7 @@ label {
   color: #dbdbdb;
   line-height: 37px;
   text-align: center;
-  font-size: 14px;
+  font-size: 20px;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -3854,11 +3868,11 @@ p.footer-address {
   line-height: 37px;
 }
 .footer-type-3 .footer-socials {
-  text-align: right;
+  text-align: center;
 }
 .footer-type-3 .footer-socials i {
   background-color: transparent;
-  color: #7a7a7a;
+  color: #000;
 }
 .footer-type-3 .footer-socials a:hover i {
   background-color: transparent;
