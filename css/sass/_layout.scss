@@ -202,6 +202,14 @@
   filter: gray;
 }
 
+.work-container {
+  display: flex;
+}
+
+.work-item {
+  display: flex;
+}
+
 .work-item:hover img {
   -webkit-filter: none;
   -moz-filter: none;
