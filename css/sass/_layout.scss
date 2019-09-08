@@ -204,14 +204,30 @@
 
 .work-container {
   display: flex;
-  margin: 60px 0;
+  margin: 40px 0;
 
   & > div:first-child {
-    margin-right: 30px;
+    margin-right: 20px;
   }
 
   & > div:last-child {
-    margin-left: 30px;
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .work-container {
+    display: flex;
+    margin: 10px 0;
+  
+    & > div:first-child {
+      margin-right: 5px;
+    }
+  
+    & > div:last-child {
+      margin-left: 5px;
+    }
   }
 }
 
@@ -322,6 +338,39 @@
     display: inline-block;
     letter-spacing: 1.5px;
     font-weight: 600;
+  }
+}
+
+@media (max-width: 640px) {
+
+  .work-description {
+    position: absolute;
+    display: block;
+    left: 5%;
+    top: 5%;
+    width: 80%;
+    @include transition (all .2s ease-in-out);
+  
+    &.sm {
+      width: 80%;
+    }
+  
+    & h2 {
+      font-size: 15px;
+      margin-bottom: 2px;
+      letter-spacing: 1px;
+    }
+  
+    & h3 {
+      font-size: 10px;
+      margin-bottom: 2px;
+      color: #999;
+      letter-spacing: 1px;
+    }
+  
+    & span {
+      font-size: 8px;
+    }
   }
 }
 
@@ -2118,6 +2167,15 @@ input.searchbox:focus {
   line-height: 1.5;
   font-family: $heading-font;
   color: $heading-color;
+}
+
+
+@media (max-width: 640px) {
+
+  .intro.style-2 .intro-title p {
+    font-size: 40px;
+  }
+
 }
 
 

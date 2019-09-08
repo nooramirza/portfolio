@@ -96,7 +96,6 @@ p {
   font-size: 15px;
   color: $text-color;
   font-weight: normal;
-  line-height: 25px;
 }
 
 .subheading {
@@ -115,6 +114,20 @@ p {
   width: 48px;
   border-bottom: 3px solid #e8e8e8;
   margin: 15px auto 15px;
+}
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 640px) {
+
+  body {
+    padding: 0 10px;
+  }
 }
 
 
