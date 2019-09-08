@@ -1374,7 +1374,7 @@ p {
   margin: 0;
 }
 .work-img .one {
-  background: url(../../img/portfolio/HMScan.png) no-repeat center center;
+  background: url(portfolio/../../img/portfolio/HMScan.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1390,7 +1390,7 @@ p {
   min-height: 600px;
 }
 .work-img .two {
-  background: url(../../img/portfolio/tellspec-apps.png) no-repeat center center;
+  background: url(portfolio/../../img/portfolio/tellspec-apps.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1406,7 +1406,7 @@ p {
   min-height: 600px;
 }
 .work-img .three {
-  background: url(../../img/portfolio/bSkilled-grey.png) no-repeat center center;
+  background: url(portfolio/../../img/portfolio/bSkilled-grey.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1422,7 +1422,7 @@ p {
   min-height: 600px;
 }
 .work-img .four {
-  background: url(../../img/portfolio/JKing.png) no-repeat center center;
+  background: url(portfolio/../../img/portfolio/JKing.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
