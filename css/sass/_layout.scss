@@ -218,15 +218,15 @@
 @media (max-width: 768px) {
 
   .work-container {
-    display: flex;
+    display: block;
     margin: 10px 0;
   
     & > div:first-child {
-      margin-right: 5px;
+      margin: 0px 0 10px;
     }
   
     & > div:last-child {
-      margin-left: 5px;
+      margin: 0px 0 10px;
     }
   }
 }
@@ -264,7 +264,60 @@
   position: relative;
   overflow: hidden;
   height: 100%;
+  width: 100%;
   margin: 0;
+
+  & .one {
+    background: url(../../img/portfolio/HMScan.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 7px;
+    overflow: hidden;
+    width: 100%;
+    @include transition ($all);
+    min-height: 600px;
+  }
+
+  & .two {
+    background: url(../../img/portfolio/tellspec-apps.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 7px;
+    overflow: hidden;
+    width: 100%;
+    @include transition ($all);
+    min-height: 600px;
+  }
+
+  & .three {
+    background: url(../../img/portfolio/bSkilled-grey.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 7px;
+    overflow: hidden;
+    width: 100%;
+    @include transition ($all);
+    min-height: 600px;
+  }
+
+  & .four {
+    background: url(../../img/portfolio/JKing.png) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 7px;
+    overflow: hidden;
+    width: 100%;
+    @include transition ($all);
+    min-height: 600px;
+  }
 
   img {
     border-radius: 7px;
@@ -281,6 +334,33 @@
     @include transform (translate(-50%, -50%));
     height: auto;
     width: auto;
+  }
+}
+
+@media (max-width: 640px) {
+  .work-img {
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  
+    & .one {
+      min-height: 300px;
+    }
+  
+    & .two {
+      min-height: 300px;
+    }
+  
+    & .three {
+      min-height: 300px;
+    }
+  
+    & .four {
+      min-height: 300px;
+    }
   }
 }
 
