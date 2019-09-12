@@ -77,6 +77,13 @@ body img {
   user-select: none;
 }
 
+@media (max-width: 640px) {
+
+  body img {
+    max-width: 80%;
+  }
+}
+
 h1,h2,h3,h4,h5,h6 {
   font-family: $alt-font;
   margin-top: 0;

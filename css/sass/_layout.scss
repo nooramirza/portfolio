@@ -19,6 +19,7 @@
 .intro-text {
   font-size: 17px;
   line-height: 32px;
+  width: 80%;
 }
 
 /* Results
@@ -2232,6 +2233,7 @@ input.searchbox:focus {
   & .container {
     padding: 0;
     margin: 0;
+    width: 100%;
   }
 }
 

@@ -514,6 +514,13 @@
   }
 }
 
+@media (max-width: 640px) {
+
+  .nav-type-3 {
+    margin-top: 0;
+  }
+}
+
 .full-nav,
 #nav-icon {
   -webkit-touch-callout: none;
