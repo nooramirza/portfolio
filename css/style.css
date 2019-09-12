@@ -815,10 +815,10 @@ p {
 /*-------------------------------------------------------*/
 .nav-type-3 {
   background-color: #fff;
-  position: fixed;
   height: 100px;
   width: 100%;
   z-index: 1000;
+  margin-top: 30px;
 }
 .nav-type-3 .nav-wrap {
   display: table;
@@ -3196,7 +3196,7 @@ input.searchbox:focus {
 /* Intro
 -------------------------------------------------------*/
 .section-wrap.intro {
-  padding: 170px 0 95px;
+  padding: 60px 0 60px;
 }
 .section-wrap.intro .container {
   padding: 0;
