@@ -1385,7 +1385,7 @@ p {
   margin: 0;
 }
 .work-img .zero {
-  background: url(portfolio/../../img/portfolio/Tossed.jpg) no-repeat center center;
+  background: url(portfolio/../../img/portfolio/Tossed.jpg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
