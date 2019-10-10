@@ -1328,7 +1328,6 @@ p {
 
 .work-container {
   display: flex;
-  margin: 40px 0;
 }
 .work-container > div:first-child {
   margin-right: 20px;
@@ -1351,6 +1350,7 @@ p {
 }
 .work-item {
   display: flex;
+  margin: 40px 0;
 }
 
 .work-item:hover img {
@@ -1383,6 +1383,22 @@ p {
   height: 100%;
   width: 100%;
   margin: 0;
+}
+.work-img .zero {
+  background: url(portfolio/../../img/portfolio/Tossed.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-radius: 7px;
+  overflow: hidden;
+  width: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  min-height: 600px;
 }
 .work-img .one {
   background: url(portfolio/../../img/portfolio/HMScan.png) no-repeat center center;

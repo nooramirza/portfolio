@@ -205,7 +205,8 @@
 
 .work-container {
   display: flex;
-  margin: 40px 0;
+
+
 
   & > div:first-child {
     margin-right: 20px;
@@ -234,6 +235,7 @@
 
 .work-item {
   display: flex;
+  margin: 40px 0;
 }
 
 .work-item:hover img {
@@ -267,6 +269,19 @@
   height: 100%;
   width: 100%;
   margin: 0;
+
+  & .zero {
+    background: url(portfolio/../../img/portfolio/Tossed.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 7px;
+    overflow: hidden;
+    width: 100%;
+    @include transition ($all);
+    min-height: 600px;
+  }
 
   & .one {
     background: url(portfolio/../../img/portfolio/HMScan.png) no-repeat center center; 
